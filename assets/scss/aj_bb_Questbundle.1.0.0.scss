@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "reset";
+@import "bootstrap4/_main_bootstrap.scss";
+/**
+ * dropdown
+ */
+#bb_aj_listaAllaQuests{
+    margin-left: .5rem;
+}
+ .bb_aj_registrerat{
+    text-align: left;
+    font-size: small;
+}
+.questsublist{
+    text-align: left;
+    margin-top:4rem;
+    margin-left:2rem;
+    margin-right: 2rem;
+    p{
+     border-top:1px solid #666;
+    }
+}
+.bekraftabutton{
+    text-align: center;
+    .bb_aj_questFormCompleted{
+       
+        h4{margin-top:0px!important;
+    margin-bottom:.5rem; color:green!important;}
+    }
+}
